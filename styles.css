@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: rgb(80,152,207);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.Formsheet{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+
+.column{
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+}
+    
+input{
+    width: 300px;
+    background-color: rgb(80,152, 207);
+    color: white;
+}
+textarea{
+    background-color: rgb(80,152, 207);
+    width: 300px; height: 100px;
+    border: 1px solid white;
+    color: white;
+}
+select{
+    background-color: rgb(80,152, 207);
+    color: white;
+}
